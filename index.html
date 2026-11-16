@@ -6,11 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Personal portfolio of Bikram Magar, an aspiring software developer interested in AI, machine learning and web development.">
+    <meta name="description"
+          content="Portfolio of Bikram Rikime Magar, a Computer Engineering student and aspiring software developer interested in programming, AI, and application development.">
 
-    <meta name="author" content="Bikram Magar">
+    <meta name="author" content="Bikram Rikime Magar">
 
-    <title>Bikram Magar | Portfolio</title>
+    <meta property="og:title"
+          content="Bikram Rikime Magar | Portfolio">
+    <meta property="og:description"
+          content="Explore my technical skills, software projects, education, and professional experience.">
+
+    <meta property="og:type" content="website">
+
+    <title>Bikram Rikime Magar | Portfolio</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="static/style.css">
@@ -25,7 +33,7 @@
         <nav class="navbar">
 
             <a href="#home" class="logo">
-                BM<span>.</span>
+                <span class="logo-circle">B</span>
             </a>
 
             <ul class="nav-links">
@@ -36,13 +44,15 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-                <button
-                        class="menu-toggle"
-                        id="menu-toggle"
-                        aria-label="Open navigation menu"
-                        aria-expanded="false">
-                        ☰
-                </button>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+                ☰
+            </button>
+
             <button id="theme-toggle" aria-label="Toggle dark mode">
                 Theme
             </button>
@@ -57,29 +67,34 @@
 
         <div class="hero-content">
 
-            <p class="hero-greeting">Hello, I'm</p>
+            <p class="hero-greeting">
+                Hello, I'm
+            </p>
 
-            <h1>Bikram Magar</h1>
+            <h1>Bikram Rikime Magar</h1>
 
             <h2>
                 Aspiring Software Developer
             </h2>
 
             <p class="hero-description">
-                Exploring technology, building applications,
-                and developing solutions through programming.
-                Interested in Artificial Intelligence,
-                Machine Learning and Web Development.
+                Computer Engineering student interested in
+                software development, web technologies, and
+                Artificial Intelligence.
+
+                I enjoy building practical applications,
+                solving programming challenges, and exploring
+                new technologies.
             </p>
 
             <div class="hero-buttons">
 
                 <a href="#projects" class="btn primary-btn">
-                    View My Work
+                    Explore My Projects
                 </a>
 
                 <a href="#contact" class="btn secondary-btn">
-                    Contact Me
+                    Get In Touch
                 </a>
 
             </div>
@@ -88,8 +103,8 @@
 
         <div class="hero-image">
 
-            <div class="profile-placeholder">
-                BM
+            <div class="profile-image">
+                <img src="static/images/profile.PNG"alt="Bikram Rikime Magar">
             </div>
 
         </div>
@@ -108,21 +123,41 @@
         <div class="about-content">
 
             <p>
-                I'm Bikram Magar, a student of Global AI
-                and Computer Engineering at Seojeong University
-                in South Korea.
+                I'm Bikram Rikime Magar, currently studying
+                Global AI and Computer Engineering at
+                Seojeong University in South Korea.
             </p>
 
             <p>
-                I enjoy learning programming, exploring
-                emerging technologies, and developing
-                practical software projects.
+                My technical interests include software
+                development, web technologies, and Artificial
+                Intelligence. I have experience working with
+                C, Python, HTML, CSS, JavaScript, Flask,
+                SQLite, Unity, and C#.
             </p>
 
             <p>
-                My current interests include Python,
-                Web Development, Artificial Intelligence
-                and Machine Learning.
+                Alongside my technical learning, I have
+                experience teaching Computer Science to
+                +2 level students in Nepal, helping me
+                develop communication and technical
+                explanation skills.
+            </p>
+
+            <p>
+                Beyond technology, I have experience in
+                Taekwondo instruction, physical training,
+                and academic examination administration.
+                These experiences have strengthened my
+                discipline, leadership, and organizational
+                abilities.
+            </p>
+
+            <p>
+                I continuously work on practical projects
+                to improve my programming knowledge,
+                problem-solving abilities, and readiness
+                for opportunities in software development.
             </p>
 
         </div>
@@ -141,6 +176,11 @@
         <div class="skills-container">
 
             <div class="skill-card">
+                <h3>C Programming</h3>
+                <p>Programming fundamentals and logical thinking</p>
+            </div>
+
+            <div class="skill-card">
                 <h3>Python</h3>
                 <p>Programming and problem solving</p>
             </div>
@@ -152,11 +192,11 @@
 
             <div class="skill-card">
                 <h3>JavaScript</h3>
-                <p>Web interactivity</p>
+                <p>Fundamental web interactivity</p>
             </div>
 
             <div class="skill-card">
-                <h3>C / C++</h3>
+                <h3>C++</h3>
                 <p>Programming fundamentals</p>
             </div>
 
@@ -167,7 +207,7 @@
 
             <div class="skill-card">
                 <h3>Flask & SQLite</h3>
-                <p>Backend development fundamentals</p>
+                <p>Backend and database fundamentals</p>
             </div>
 
         </div>
@@ -185,49 +225,105 @@
 
         <div class="projects-container">
 
+            <!-- Medical Appointment System -->
             <article class="project-card">
 
                 <div class="project-info">
-                    <h3>Medical Appointment System</h3>
+
+                    <h3>Medical Appointment Management System</h3>
 
                     <p>
                         A web-based appointment management
-                        system with student and staff dashboards.
+                        application featuring student and
+                        staff dashboards, appointment booking,
+                        and management functionality.
                     </p>
 
-                    <span>Python · Flask · SQLite · HTML · CSS</span>
+                    <span>
+                        Python · Flask · SQLite · HTML · CSS
+                    </span>
+
                 </div>
 
             </article>
 
 
+            <!-- Unity Roulette Game -->
             <article class="project-card">
 
                 <div class="project-info">
+
                     <h3>Unity Roulette Game</h3>
 
                     <p>
-                        A roulette game developed using
-                        Unity and C#.
+                        A roulette game developed as a
+                        college project using Unity and C#,
+                        exploring game logic and interactive
+                        application development.
                     </p>
 
-                    <span>Unity · C#</span>
+                    <span>College Project · Unity · C#</span>
+
                 </div>
 
             </article>
 
 
+            <!-- Swipe Car Game -->
             <article class="project-card">
 
                 <div class="project-info">
-                    <h3>Python Programming Projects</h3>
+
+                    <h3>Swipe Car Game</h3>
 
                     <p>
-                        Programming exercises and applications
-                        developed while learning Python.
+                        A small college game project focused
+                        on car movement and swipe-based
+                        interaction.
                     </p>
 
-                    <span>Python</span>
+                    <span>College Game Project</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- Cat Saving Game -->
+            <article class="project-card">
+
+                <div class="project-info">
+
+                    <h3>Cat Saving Game</h3>
+
+                    <p>
+                        A small game project built around
+                        helping and saving a cat through
+                        interactive gameplay.
+                    </p>
+
+                    <span>College Game Project</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- Snake Game -->
+            <article class="project-card">
+
+                <div class="project-info">
+
+                    <h3>Snake Game</h3>
+
+                    <p>
+                        A classic Snake game project
+                        developed to explore game logic,
+                        movement, and player interaction.
+                    </p>
+
+                    <span>Game Development · Programming</span>
+
                 </div>
 
             </article>
@@ -237,16 +333,17 @@
     </section>
 
 
-    <!-- Experience Section -->
+    <!-- Experience and Achievements Section -->
     <section id="experience" class="section experience">
 
         <div class="section-heading">
             <p>My background</p>
-            <h2>Education & Experience</h2>
+            <h2>Education, Experience & Achievements</h2>
         </div>
 
         <div class="experience-content">
 
+            <!-- Education -->
             <div class="experience-card">
 
                 <h3>Education</h3>
@@ -257,42 +354,103 @@
                     Global AI and Computer Engineering
                 </p>
 
-                <p>South Korea</p>
+                <p>
+                    South Korea
+                </p>
 
             </div>
 
 
-            
-<div class="experience-card">
+            <!-- Teaching Experience -->
+            <div class="experience-card">
 
-    <h3>Teaching Experience</h3>
+                <h3>Teaching Experience</h3>
 
-    <h4>Computer Science Tutor</h4>
+                <h4>Computer Science Tutor</h4>
 
-    <p>
-        Provided computer science education and
-        academic support to +2 level students in Nepal.
-    </p>
+                <p>
+                    Provided Computer Science education
+                    and academic support to +2 level
+                    students in Nepal.
+                </p>
 
-    <p>
-        Assisted students in learning C programming,
-        Python fundamentals, HTML, CSS, and basic
-        JavaScript.
-    </p>
+                <p>
+                    Assisted students in learning
+                    C programming, Python fundamentals,
+                    HTML, CSS, and basic JavaScript.
+                </p>
 
-    <p>
-        Explained programming concepts, coding
-        fundamentals, and problem-solving techniques
-        through practical examples and exercises.
-    </p>
+                <p>
+                    Explained programming concepts,
+                    coding fundamentals, and problem-solving
+                    techniques through practical examples
+                    and exercises.
+                </p>
 
-    <p>
-        Strengthened communication, technical
-        explanation, and mentoring skills through
-        teaching.
-    </p>
+            </div>
 
-</div>
+
+            <!-- Taekwondo -->
+            <div class="experience-card">
+
+                <h3>Sports & Instruction</h3>
+
+                <h4>Taekwondo Black Belt & Instructor</h4>
+
+                <p>
+                    Achieved Taekwondo Black Belt and
+                    gained experience in instructing
+                    and guiding students.
+                </p>
+
+                <p>
+                    Developed discipline, leadership,
+                    physical fitness, and mentoring skills.
+                </p>
+
+            </div>
+
+
+            <!-- Physical Training -->
+            <div class="experience-card">
+
+                <h3>Training Experience</h3>
+
+                <h4>Physical Training Instructor (PTI)</h4>
+
+                <p>
+                    Served as a Physical Training
+                    Instructor for army recruits.
+                </p>
+
+                <p>
+                    Gained experience in physical training,
+                    discipline, instruction, and group
+                    coordination.
+                </p>
+
+            </div>
+
+
+            <!-- Examination Controller -->
+            <div class="experience-card">
+
+                <h3>Administrative Experience</h3>
+
+                <h4>Examination Controller</h4>
+
+                <p>
+                    Worked as an examination controller
+                    for several colleges in Nepal.
+                </p>
+
+                <p>
+                    Gained experience in examination
+                    administration, coordination,
+                    organization, and responsibility.
+                </p>
+
+            </div>
 
         </div>
 
@@ -300,40 +458,38 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact">
-
-        <div class="section-heading">
-            <p>Let's connect</p>
-            <h2>Contact Me</h2>
-        </div>
-
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
         <p>
-            Interested in technology, development,
-            or collaboration? Feel free to connect.
+            Interested in working together or discussing a project?
+            Feel free to connect with me.
         </p>
 
         <div class="contact-links">
-
-            <a href="https://github.com/" target="_blank"
+            <a href="https://github.com/mgrbk95-cyber"
+               target="_blank"
                rel="noopener noreferrer">
                 GitHub
             </a>
 
-            <a href="https://www.linkedin.com/" target="_blank"
-               rel="noopener noreferrer">
-                LinkedIn
+            <a href="#" class="disabled-link" aria-disabled="true">
+                Email
             </a>
 
+            <a href="#" class="disabled-link" aria-disabled="true">
+                LinkedIn
+            </a>
         </div>
-
-    </section>
+    </div>
+</section>
 
 
     <!-- Footer -->
     <footer class="footer">
 
         <p>
-            &copy; 2026 Bikram Magar.
+            &copy; 2026 Bikram Rikime Magar.
             All rights reserved.
         </p>
 
